@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/drawable_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="编辑 xml 实现不同样式"
+                android:textColor="@color/avoscloud_feedback_text_gray" />
+
+            <TextView
+                android:id="@+id/drawable_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/drawable_test1"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:text="测试:只有边框颜色"
+                android:textColor="@color/avoscloud_feedback_text_gray" />
+
+            <TextView
+                android:id="@+id/drawable_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/drawable_test2"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:text="测试:边框颜色及填充色"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/drawable_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/drawable_test3"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:text="测试:点击过程变更背景色"
+                android:textColor="@color/avoscloud_feedback_text_gray" />
+
+            <TextView
+                android:id="@+id/drawable_tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/drawable_test3"
+                android:paddingBottom="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="6dp"
+                android:text="测试:点击过程变更背景色及文字颜色"
+                android:textColor="@color/color_test1" />
+
+            <ImageView
+                android:id="@+id/drawable_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/icon_drawable_test" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_margin="40dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/drawable_iv2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/icon_zan" />
+
+            <ImageView
+                android:id="@+id/drawable_iv3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/icon_zan"
+                android:tint="@color/colorAccent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/drawable_tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/drawable_test5"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:paddingTop="6dp"
+            android:text="测试"
+            android:textColor="@color/white" />
+    </FrameLayout>
+</LinearLayout>
